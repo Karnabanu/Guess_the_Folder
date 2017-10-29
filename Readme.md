@@ -25,4 +25,5 @@ when you enter correct guess you will get
 
 And script will exit and you will get prompt back.
 
-## This file is create on Sun Oct 29 00:50:04 IST 2017
+guessingame.sh contains 22 lines
+##This file is create on Sun Oct 29 17:01:47 IST 2017
