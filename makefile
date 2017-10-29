@@ -35,6 +35,7 @@ all: clean Readme.md FORCE
 
 Readme.md: clean FORCE
 	$(file > Readme.md,$(readmetext))
+	printf "\nguessingame.sh contains $(shell wc -l guessinggame.sh | cut -f 1 -d " ") lines " >> Readme.md
 	printf "\n## This file is create on $(shell date)" >> Readme.md
 clean:
 	test Readme.md || rm Readme.md 
